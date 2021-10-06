@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+h1,h2, h3, h4, h5, h6{
+	font-weight:;
+	margin:0 0 15px;
+}
+.alignleft{
+	float: left;
+	margin-right:15px;
+}
+.alignright{
+	float:right;
+	margin-left: 0 auto 15px;
+}
+.aligncenter{
+	display:block;
+	height:auto;
+}
+body{
+	font-family: 'Vidaloka', serif;
+	font-weight:400;
+}
+a{
+
+}
+a:hover{
+	text-decoration:none;
+}
+a:focus{
+
+}
+.testmonial-wrap {
+    position: relative;
+}
+h1.setcion-title {
+    font-size: 75px;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 0;
+}
+h1.setcion-title span {
+    color: #fff;
+}
+.testmonial-text {
+    width: 40%;
+    line-height: 2;
+    color: #6B6B56;
+    padding-top: 250px;
+}
+.author-name {
+    margin-top: 35px;
+    padding-bottom: 30px;
+}
+.author-name i.fas {
+    color: #C6A24E;
+    font-size: 25px;
+}
+.author-name h3 {
+    color: #222222;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.author-bg-1{background-image: url(../img/owl-bg.jpg);}
+.author-bg-2{background-image: url(../img/pexels-sevenstorm-juhaszimrus-704767.jpg);}
+.author-bg-3{background-image: url(../img/pexels-stas-knop-2916450.jpg);}
+.author {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: -6%;
+    height: 100%;
+    width: 60%;
+    top: 0;
+    margin-top: 10px;
+}
+.owl-carousel.testmonial-slide {
+    width: 105%;
+}
+.single-testmonial-slide {
+    position: relative;
+    overflow: hidden;
+}
+.owl-carousel.testmonial-slide .owl-nav {
+    padding-right: 8%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.owl-carousel.testmonial-slide .owl-nav button {
+    height: 55px;
+    width: 60px;
+    background-color: #229EBD;
+    outline: none;
+    font-size: 20px;
+}
+.owl-carousel.testmonial-slide .owl-nav button.owl-prev {
+    background-color: #AD600E;
+}
+.owl-carousel.testmonial-slide .owl-nav button:hover {
+    background-color: #222;
+    color: #fff;
+}
